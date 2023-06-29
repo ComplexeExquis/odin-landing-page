@@ -198,13 +198,62 @@ h3 {
 /* ------------------- end of quote section */
 
 
+
 /* ------------------- cta section */
+.cta-section {
+    margin-top: 4rem;
+    background-color: #3882F6;
+    padding: 3rem 1rem;
+    padding-bottom: 1.625rem;
+    min-height: fit-content;
+}
 
+.cta-upper-text {
+    color: #FFFFFF;
+    font-family: 'inter-bold';
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
 
+}
+.cta-lower-text {
+    color: #FFFFFF;
+    font-family: 'inter-regular';
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.cta-button {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'inter-regular';
+    font-size: 1.25rem;
+    color: white;
+    background-color: #3882F6;
+    border: 0.5px white solid;
+    border-radius: 8px;
+    padding: 8px auto;
+    width: 100%;
+}
+
+.cta-button:hover {
+    background-color: #1f498d;
+}
 
 /* ------------------- end of cta section */
 
-/* ------------------- footer section */
 
+/* ------------------- footer section */
+.footer-section {
+    margin-top: 3rem;
+    background-color: #1F2937;
+    padding: 1.5rem 1rem;
+}
+
+.footer-text {
+    font-family: 'inter-regular';
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 /* ------------------- end of footer section */
