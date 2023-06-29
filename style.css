@@ -172,6 +172,39 @@ h3 {
 /* ------------------- end of middle section */
 
 /* ------------------- quote section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 2.75rem 1rem;
+    margin-top: 6.25rem;
+}
 
+.quote {
+    margin: 0;
+    font-family: 'inter-extra-light';
+    color: #000000;
+    font-size: 2.25rem;
+    font-style: italic;
+    margin-left: 4rem;
+}
 
+.quote-from {
+    margin: 0;
+    font-family: 'inter-medium';
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-right: 4rem;
+    text-align: right;
+}
 /* ------------------- end of quote section */
+
+
+/* ------------------- cta section */
+
+
+
+/* ------------------- end of cta section */
+
+/* ------------------- footer section */
+
+
+/* ------------------- end of footer section */
