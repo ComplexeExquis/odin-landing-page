@@ -1,13 +1,121 @@
+@font-face {
+    font-family: 'inter-regular';
+    src: local("inter-regular"),
+    url("./assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'inter-bold';
+    src: local("inter-bold"),
+    url("./assets/fonts/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'inter-extra-bold';
+    src: local("inter-extra-bold"),
+    url("./assets/fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'inter-medium';
+    src: local("inter-medium"),
+    url("./assets/fonts/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'inter-extra-light';
+    src: local("inter-extra-light"),
+    url("./assets/fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
 :root {
-    
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.3125rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2.652rem;
+    --font-size-4xl: 4rem;
 }
 
 body {
+    margin: 0;
+    font-family: 'inter-regular';
+}
+h1,
+h2,
+h3 {
     margin: 0;
 }
 
 .outer-container {
     display: flex;
     flex-direction: column;
+}
+
+.header-logo-section,
+.header-section, 
+.middle-section,
+.quote-section,
+.cta-section,
+.footer-section {
     padding: 0 16px;
 }
+
+/* ------------------- header part */
+.header-logo-section {
+    display: flex;
+    background-color: #1F2937;
+    min-height: 4rem;
+    border: #3882F6 1px solid;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 5rem;
+}
+
+.header-content-img {
+    max-width: 327px;
+    max-height: 168px;
+}
+
+.header-content-heading {
+    margin-top: 2rem;
+    font-family: 'inter-extra-bold';
+    font-size: 2.5rem;
+}
+
+.header-content-subtext {
+    font-family: 'inter-medium';
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-content-button {
+    display: flex;
+    font-family: 'inter-bold';
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 0.75rem 2.625rem;
+    max-width: 10rem;
+    min-height: 3rem;
+    border-radius: 16px;
+}
+
+.header-content-button:hover {
+    background-color: #1f498d;
+}
+
+/* ------------------- end of header part */
+
+
