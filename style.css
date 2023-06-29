@@ -1,0 +1,13 @@
+:root {
+    
+}
+
+body {
+    margin: 0;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
