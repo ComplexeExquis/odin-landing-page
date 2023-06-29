@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 @font-face {
     font-family: 'inter-regular';
     src: local("inter-regular"),
@@ -59,7 +69,7 @@ h3 {
     padding: 0 16px;
 }
 
-/* ------------------- header part */
+/* ------------------- header section */
 .header-logo-section {
     display: flex;
     background-color: #1F2937;
@@ -95,6 +105,7 @@ h3 {
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    text-justify: inter-word;
 }
 
 .header-content-button {
@@ -116,6 +127,50 @@ h3 {
     background-color: #1f498d;
 }
 
-/* ------------------- end of header part */
+/* ------------------- end of header section */
 
 
+/* ------------------- middle section */
+.middle-section {
+    margin-top: 2rem;
+    
+
+}
+
+.middle-section-heading {
+    font-family: 'inter-bold';
+    font-size: 1.75rem;
+}
+
+.middle-section-grid {
+    margin-top: 1rem;
+    display: grid;
+    gap: 2.25rem;
+}
+
+.middle-section-grid-element {
+    max-width: 21.438rem;
+    height: fit-content;
+}
+
+.middle-section-grid-element-img {
+    max-width: 21.438rem;
+    max-height: 21.438rem;
+}
+
+.middle-section-grid-element-subtext{
+    color: #666666;
+    font-family: 'inter-regular';
+    font-size: 1rem;
+    padding: 0 0.25rem;
+    margin: 0;
+    margin-top: 0.5rem;
+    text-justify: inter-word;
+}
+
+/* ------------------- end of middle section */
+
+/* ------------------- quote section */
+
+
+/* ------------------- end of quote section */

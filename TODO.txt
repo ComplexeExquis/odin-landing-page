@@ -1,0 +1,1 @@
+search how to use media queries to build layout for dekstop, tablet, phones
